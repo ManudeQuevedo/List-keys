@@ -13,7 +13,7 @@ class MoviesList extends Component{
                 // ...this.state.movies extrae cada uno de los elementos, la coma y el nuevo elemento
                 // son para mutar al arreglo principal, esto significa que siempre crea uno nuevo a partir del original con los cambios.
                 ...this.state.movies,
-                {title: "Harry Potter", author: "Chris Columbus"}
+                {title: "Harry Potter", director: "Chris Columbus"}
             ]
         })
     }
