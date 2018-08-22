@@ -22,7 +22,7 @@ class MoviesList extends Component{
         <ul>
             { this.state.movies.map((e,i) => <Card key={i} {...e}/>) }
         </ul>
-        <button onClick={this.newItem}/>
+        <button onClick={this.newItem}>add new movie</button>
     </div>
   }
 }
